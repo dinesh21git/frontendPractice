@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:hsl(30, 54%, 90%);
+    font-size: 16px;
+    
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: hsl(0,0%,100%);
+    width: 600px;
+    height: auto;
+    margin-top: 80px; 
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:15px ;
+    font-family: sans-serif;
+    color: hsl(30, 10%, 34%);
+   
+}
+
+img {
+    width: 590px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.highlight {
+   background-color: hsl(329, 100%, 95%);
+   padding: 15px;
+   border-radius: 10px;
+   width: 520px;
+   height: 150px;
+   margin: 15px;
+}
+
+
+h2{
+    font-family: 'Young Serif';
+    font-weight: 100;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.highlight ul {
+    margin-left:35px;
+    margin-top: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.heading-color {
+    color: hsl(332, 51%, 32%);
+    margin: auto;
+}
+
+
+h3 {
+    font-family: 'Young Serif';
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Outfit',sans-serif;
+    line-height: 24px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.ingredients {
+margin-left: 40px;
+   margin-right : auto;
+}
+
+h3 {
+    margin-right: 50px;
+}
+
+.instructions {
+    margin-top: 20px;
+    line-height: 24px;
+    text-align: justify;
+
+}
+.nutrition-chart {
+    margin-top:20px;
+}
+
+li {
+    line-height: 25px;
+}
+
+h3 {
+    color:hsl(33, 22%, 39%) ;
+    font-size: 26px;
+}
+
+.instructions {
+    width: 540px;
+    line-height:3rem;
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.unique-ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid hsl(34, 20%, 77%);
+}
+
+
+td:first-child {
+    padding-right: 20px;
+}
+
+.mark {
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
